@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+}
+div {
+  outline: yellow 1px solid;
+}
+.header {
+  /*border-radius: 300px;*/
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.logo {
+  height: 100px;
+  width: 600px;
+  font-size: 4.5rem;
+  font-weight: normal;
+  color: white;
+  float: left;
+  font-family: 'Inika', serif;
+  letter-spacing: -5px;
+  text-decoration: none;
+
+}
+.logo a{
+  color: white;
+  text-decoration: none;
+}
+.body {
+  height: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: auto;
+  margin-bottom: 100px;
+}
+.nav{
+  height: 100px;
+  width: auto;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 15px;
+    overflow: hidden;
+    background-color: black;
+
+
+
+
+}
+
+li {
+    float: left;
+    position: relative;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 60px;
+    text-decoration: none;
+    font-size: 1.9rem
+
+}
+
+li a:hover:not(.active) {
+    background-color: #222;
+}
